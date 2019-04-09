@@ -1,6 +1,6 @@
 require('nightwatch-cucumber')({
   cucumberArgs: [
-  '--require', 'features/step_definitions',
+  '--require', 'features/e2e',
   '--require', 'hooks.js',
   '--format', 'node_modules/cucumber-pretty', 
   '--format', 'json:reports/cucumber.json',

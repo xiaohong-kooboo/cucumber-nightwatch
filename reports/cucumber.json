@@ -21,11 +21,11 @@
             "line": 5,
             "name": "I open Google's search page",
             "match": {
-              "location": "features\\step_definitions\\google.js:4"
+              "location": "features\\e2e\\google.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 15123000000
+              "duration": 13682000000
             }
           },
           {
@@ -34,11 +34,11 @@
             "line": 6,
             "name": "the Google search is visible",
             "match": {
-              "location": "features\\step_definitions\\google.js:12"
+              "location": "features\\e2e\\google.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 45000000
             }
           },
           {
@@ -47,11 +47,11 @@
             "line": 7,
             "name": "the title is \"Google\"",
             "match": {
-              "location": "features\\step_definitions\\google.js:16"
+              "location": "features\\e2e\\google.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 10000000
             }
           }
         ]
