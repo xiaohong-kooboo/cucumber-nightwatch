@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4806000000
+              "duration": 15123000000
             }
           },
           {
@@ -34,11 +34,11 @@
             "line": 6,
             "name": "the Google search is visible",
             "match": {
-              "location": "features\\step_definitions\\google.js:10"
+              "location": "features\\step_definitions\\google.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 46000000
             }
           },
           {
@@ -47,11 +47,11 @@
             "line": 7,
             "name": "the title is \"Google\"",
             "match": {
-              "location": "features\\step_definitions\\google.js:14"
+              "location": "features\\step_definitions\\google.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 15000000
             }
           }
         ]

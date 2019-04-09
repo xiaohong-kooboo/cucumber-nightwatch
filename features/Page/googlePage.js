@@ -1,11 +1,15 @@
 module.exports = {
   sections: {
-    form: {
-      selector: '#form',
+    body: {
+      selector: 'body',
       elements: {
-       input: 'input[name=wd]',
-       submit:'#id'
+       input: 'input[name="q"]'
       }
     }
   }
+  // url: 'http://google.com',
+  // elements: {
+  //   body: 'body',
+  //   input: 'input[name="q"]'
+  // }
 };
