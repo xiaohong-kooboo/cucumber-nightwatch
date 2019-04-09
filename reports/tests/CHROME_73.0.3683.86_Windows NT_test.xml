@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="tests.test"
+    errors="1" failures="0" hostname="" id="" package="tests" skipped="0"
+    tests="2" time="2.362" timestamp="Tue, 09 Apr 2019 09:11:26 GMT">
+  
+    <testcase name="BeforEach" classname="tests.test" time="2.347" assertions="0">
+    </testcase>
+  
+    <testcase name="Demo test Baidu Search" classname="tests.test" time="0.01500" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Tests / Test / Demo test Baidu Search]:
+
+  TypeError: form.click(...).pause is not a function
+    at Object.Demo test Baidu Search (D:\Lavazza\spacs\tests\test.js:14:2)
+    at Module.call (D:\Lavazza\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\Lavazza\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\Lavazza\node_modules\q\q.js:834:54)
+    at D:\Lavazza\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (D:\Lavazza\node_modules\q\q.js:796:13)
+    at D:\Lavazza\node_modules\q\q.js:556:49
+    at runSingle (D:\Lavazza\node_modules\q\q.js:137:13)
+    at flush (D:\Lavazza\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
