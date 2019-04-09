@@ -5,7 +5,7 @@
     "line": 1,
     "id": "google-search",
     "tags": [],
-    "uri": "tests\\google.feature",
+    "uri": "tests\\feature\\google.feature",
     "elements": [
       {
         "id": "google-search;searching-google",
@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35693000000
+              "duration": 10584000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 49000000
             }
           },
           {
